@@ -55,4 +55,4 @@ CMD ["/var/www/html/entry.sh"]
 #ENTRYPOINT ["/var/www/html/entry.sh"]
 
 # Network Ports
-EXPOSE 80
+EXPOSE 80 3306
