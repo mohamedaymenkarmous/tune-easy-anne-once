@@ -1,0 +1,3 @@
+<table class="copyright" align="center" cellpadding="0" cellspacing="0" width="769"><tbody><tr><td>Droits de reproduction et de diffusion réservés Copyright © 2001-<?php echo "Copyright @ ".date("Y");?>, Tous droits réservés</td></tr></tbody></table>
+<table class="nuage_bas_page" align="center" cellpadding="0" cellspacing="0" width="767">
+<tbody><tr><td>Vous pouvez passer vos annonces sur <a href="/">Tune Easy Anne Once</a>, passer annonce gratuite, petites annonces, passer une annonce, annonces immobilier, location, vente , achat, maison, appartement, louer, vendre, acheter, location, annonces ariana, petites annonces ariana, immobilier, maison, locations de vacances en Tunisie, site pour les petites annonces, sites Tunisiens.</td></tr></tbody></table>

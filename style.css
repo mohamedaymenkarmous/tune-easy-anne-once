@@ -1,0 +1,149 @@
+BODY
+{
+    font-size: 12px;
+    color: #777777;
+    line-height: 140%;
+    font-family: "trebuchet MS" , arial, hevetica, sans-serif;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align:left;
+}
+INPUT{font-size: 12px;color: #777777;line-height: 100%;font-family:"trebuchet MS", arial, hevetica, sans-serif;}
+TD{text-align:left;font-size: 12px;color: #333366;	line-height: 140%;font-family:"trebuchet MS", arial, hevetica, sans-serif;}
+TEXTAREA{font-size: 12px;color: #777777;line-height: 140%;font-family:"trebuchet MS", arial, hevetica, sans-serif;text-decoration: none;}
+TH {font-size: 10px;color: #777777;	line-height: 140%;font-family:"trebuchet MS", arial, hevetica, sans-serif;text-decoration: none;}
+.default {font-size: 12px;color: #777777;line-height: 140%;font-family:"trebuchet MS", arial, hevetica, sans-serif;text-decoration: none;}
+A:link{color: #119999;text-decoration: none;}
+A:visited{color: #119999;text-decoration: none;}
+A:hover{color: #119999;text-decoration: underline;}
+A.ftr:link{color: #777777;text-decoration: none;}
+A.ftr:visited{color: #777777;text-decoration: none;}
+A.ftr:hover{color: #777777;text-decoration: underline;}
+A.cal:link{color: #777777;text-decoration: none;}
+A.cal:visited{color: #777777;text-decoration: none;}
+A.cal:hover{color: #119999;	text-decoration: underline;}
+.Entete1{font-size: 10px;font-weight: bolder;color: white;}
+.MenuHoriz{background-image: url(/images/main_nav_bg.gif);}
+.BgdDots{background-image: url(/images/h_dots.gif);}
+.Tableau1{font-size: 10px;color: #777799;}
+.PhotoMin1{border-right: #816f37 0px;border-top: #816f37 0px;	font-size: 10px;	border-left: #816f37 0px;	color: #777799;	border-bottom: #816f37 0px;	margin: 5px;}
+.PhotoView1{border-right: #816f37 1px solid;border-top: #816f37 1px solid;	border-left: #816f37 1px solid;	border-bottom: #816f37 1px solid;	font-size: 10px;	color: #777799;}
+.Entete1 TD{font-size: 11px;font-weight: bolder;color: white;}
+.Tableau1 TD{font-size: 11px;color: black;font-family: Thaoma, Arial;font-variant: normal;}
+.Tableau1 A:link{color: #999911;}
+.Tableau1 A:visited{color: #999911;}
+.Tableau1 A:hover{color: red;}
+.Tableau1 A{color: green;}
+.Tableau1 A:active{	color: #cc9999;}
+.RecordsNumber TD{font-size: 11px;color: white;}
+.RecordsNumber SELECT{font-size: 10px;color:#aa9944;}
+.RecordsNumber option{font-size: 10px;color:white;}
+.RecordsNumber optgroup{font-size: 10px;color:blue;}
+.Criteres1 TD{font-size: 11px;	color: white;}
+.Criteres1 TD A{color: green;}
+.Criteres1 TD A:active{color: fuchsia;}
+.Criteres1 TD A:hover{color: red;	text-decoration: none;}
+.Criteres1 TD A:link{color:firebrick;}
+.Criteres1 TD A:visited{color: firebrick;}
+.Criteres1 SELECT{font-size: 9px;}
+.Criteres1 INPUT{font-size: 9px;color: #7942aa;}
+.Criteres2{background-color:#aaaa7;}
+.Criteres2 TD{font-size: 10px;color: white;}
+.Criteres2 TD TEXTAREA{font-size: 6px;}
+.Criteres2 SELECT{font-size: 9px;}
+.Criteres2 INPUT{font-size: 9px;color: #3062ff;}
+.MenuVertical TD{font-size: 11px;color: #8c632d;}
+.MenuVertical A:link{font-size: 11px;color: #8c632d;}
+.MenuVertical A:visited{font-size: 11px;color: #8c632d;}
+.MenuHorizontal TD{font-size: 10px;color: white;text-decoration: none;}
+.TitreGreen TD{font-weight: bolder;font-size: 10px;color:darkblue;	}
+.Connextion TD{font-weight: normal;font-size: 12px;color: #525252;}
+.Connextion TD A{font-weight: bold;	font-size: 12px;color: #6238d3;text-decoration: none;}
+.Connextion TD A:hover{font-weight: bold;font-size: 12px;color:#6238d3;text-decoration: none;}
+.DernieresAnnonces TD{font-size: 12px;color: black;font-family: Tahoma, Arial, 'Times New Roman';}
+.DernieresAnnonces TD A:link{color: royalblue;text-decoration: none;}
+.DernieresAnnonces TD A:visited{color: royalblue;text-decoration: none;}
+.aaTitresAccueil A:link{color: #006699;}
+.aaTitresAccueil A:visited{color: #006699;}
+
+/*
+MENU HORIZONTAL
+*/
+.mh_date_accueil{font-size: 9px;color: dimgray;margin-left: 10px;}
+.MsgAccueil{font-size: 10px;color: midnightblue;}
+.MsgAccueilCli{font-size: 10px;font-weight: bold;color: midnightblue;}
+.copy{font-size: 10px;	color: #525252;	}
+.PagePath A{color: #CC9944;font-weight: bold;font-size: 17px;}
+.PagePath A:visited{color: #CC9944;font-weight: bold;font-size: 17px;}
+.PagePath TD{color: #CC0066;font-weight: bold;font-size: 17px;}
+.Help TD{font-size: 14px;color:#8C55FE;font-weight: bold;}
+.Help P{font-size: 12px;color:#FFFFFF;font-weight: normal;}
+.Help ul{font-size: 12px;color:#FFFFFF;font-weight: normal;}
+.PhotoDetails{table-layout: fixed;margin-bottom: -5px;}
+H1 
+{
+    color: #CC9944;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: tahoma, verdana, sans-serif;
+}
+H1 a {color: #CC9944;}
+H1 a:visited {color: #CC9944;}
+H1 a:hover {color: #CC9944;}
+H1 a:active {color: #CC9944;} 
+H2
+{
+    color: #89341b;
+    font-size: 13px;
+    font-weight: normal;
+    text-align:justify
+}
+
+#InputTitPage
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: #CC9944;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+#InputTitPage img
+{
+   margin-bottom: -5px;
+}
+.copyright td
+{
+    border: 1px solid #222222;
+    font-size: 7pt;
+    color: #777777;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding-left: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.nuage_bas_page td
+{
+    font-size: 7pt;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#banner div {
+	margin:0 auto;
+	width:728px;
+	overflow:visible;
+}
+#banner {
+	padding:9px 0 9px 0;
+	width:100%;
+	overflow:visible;
+	height:90px;
+	margin:1px auto;
+	background:url(/images2010/bg_banner.png) repeat-x;
+	text-align:center;
+}

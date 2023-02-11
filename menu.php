@@ -1,0 +1,19 @@
+﻿		    <tr><td height="3"></td></tr>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td align="center" width="30"><a href="/PasserAnnonce.php"><img src="/images/b_publier_annonce.gif" alt="Publier une annonce" height="25" border="0" width="140"></a></td></tr></tbody></table></td></tr>
+			<tr><td height="3"></td></tr>
+			<tr bgcolor="Silver"><td><table><tbody><tr><td style="color: white; font-size:12pt; font-weight: bold;">Les Annonces</td></tr></tbody></table></td></tr>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td width="5"></td><td width="25"><img src="/images/Home2_24x24.png" alt="" height="20" border="0" width="20"></td><td><a href="/ListeAnnonces.php?TypeAnnonce=Immobilier.php">Immobilier</a> </td></tr></tbody></table></td></tr>
+			<tr><td height="6"></td></tr>
+
+			<tr bgcolor="Silver"><td><table><tbody><tr><td><a href="/GestionCompte.php" style="color: white; font-size:12pt; font-weight: bold;">Mon Compte</a></td></tr></tbody></table></td></tr><?php if($_SESSION['s_session']){?>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td width="5"></td><td width="25"><img src="/images/icon_profil_20x20.gif" alt="" height="20" border="0" width="20"></td><td><a href="/ModifierUser.php">Mon Profil</a> </td></tr></tbody></table></td></tr>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td width="5"></td><td width="25"><img src="/images/icon_newsletter_20x20.gif" alt="" height="20" border="0" width="20"></td><td><a href="/GestionAnnonces.php">Mes Annonces (<font style="color: #FF0066;"><?php echo $_SESSION['s_nombre_annonces']=(isset($_SESSION['s_nombre_annonces']) && !empty($_SESSION['s_nombre_annonces'])) ? $_SESSION['s_nombre_annonces'] : 0 ;?></font>)</a> </td></tr></tbody></table></td></tr>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td width="5"></td><td width="25"><img src="/images/Mail<?php if($_SESSION["s_nombre_messages"]>0) echo "_Alert";?>.gif" alt="" height="18" border="0" width="18"></td><td><a href="/MesMessages.php">Mes Messages (<font style="color: #FF0066;"><?php echo nombre_message_negatif($_SESSION["s_nombre_messages"]);?></font>)</a> </td></tr></tbody></table></td></tr>
+			<?php if($_SESSION["s_zone_messagerie"]===1){$_SESSION["s_zone_messagerie"]=0;?>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td width="20"></td><td width="15"><img src="/images/msg_box.gif" alt="" border="0" height="13" width="19"></td><td><a href="/BoiteReception.php"><font color="#2154eb">Boîte de réception</font></a> </td></tr></tbody></table></td></tr>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td width="20"></td><td width="15"><img src="/images/msg_trash.gif" alt="" border="0" height="13" width="19"></td><td><a href="/Corbeille.php"><font color="#2154eb">Corbeille </font></a> </td></tr></tbody></table></td></tr>
+			<?php }?>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td width="5"></td><td width="25"><img src="/images/icon_logout_20x20.gif" alt="" height="20" border="0" width="20"></td><td><a href="/wLogoutUser.php?id=<?php echo $_SESSION['s_id'];?>">Déconnexion</a> </td></tr></tbody></table></td></tr><?php }else{?>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td width="5"></td><td width="25"><img src="/images/icon_login_20x20.gif" alt="" height="20" border="0" width="20"></td><td><a href="/LoginUser.php">Connexion</a> </td></tr></tbody></table></td></tr>
+			<tr><td><table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td width="5"></td><td width="25"><img src="/images/icon_adduser_20x20.gif" alt="" height="20" border="0" width="20"></td><td><a href="/InsererUser.php">Inscription</a> </td></tr></tbody></table></td></tr><?php }?>
+			<tr><td height="20"></td></tr>

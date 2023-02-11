@@ -1,0 +1,1 @@
+﻿<div align=center width=75% height=100px style='color:red;border:2px red solid;background-color:#FFC8C8;'><strong>Le login ou l'e-mail entré existe déjà<br/></strong></div>"
