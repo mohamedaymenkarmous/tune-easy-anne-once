@@ -19,5 +19,3 @@ sudo docker ps -a
 ```
 
 When you find the docker container `teao` is running, you can access it from your web browser as follow: http://YOUR_IP_ADDRESS:54344
-
-If you want to 
